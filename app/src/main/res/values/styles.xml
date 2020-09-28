@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->n
+
+        <item name="drawerArrowStyle">@style/DrawrArrowStyle</item>
+
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+    <style name="DrawrArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/orange</item>
+        <item name="spinBars">true</item>
+    </style>
+    <style name="NavigationViewStyle320">
+    <item name="android:textSize">12sp</item>
+</style>
+    <style name="NavigationViewStyle480">
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="NavigationViewStyle600">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="NavigationViewStyle720">
+        <item name="android:itemPadding">50dp</item>
+        <item name="android:textSize">31sp</item>
+    </style>
+    <style name="anim">
+        <item name="android:windowEnterAnimation">@anim/show</item>
+        <item name="android:windowExitAnimation">@anim/show2</item>
+    </style>
+</resources>

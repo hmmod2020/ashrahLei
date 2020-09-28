@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:id="@+id/card1"
+    android:layout_marginRight="25dp"
+    android:layout_marginTop="15dp"
+    app:cardBackgroundColor="@color/blueLhite"
+    app:cardCornerRadius="30dp"
+    android:layout_width="265dp"
+    android:layout_height="180dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/blueLhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:weightSum="1"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.03">
+
+                    </LinearLayout>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:src="@drawable/profile"
+                        android:id="@+id/userPic"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.32">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_weight="2.055">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:textSize="@dimen/size_text_card"
+                                android:text="@string/nameCard"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:textSize="@dimen/size_text_card"
+                                android:text="@string/locationCard"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:textSize="@dimen/size_text_card"
+                                android:text="@string/skillsCard"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:textSize="@dimen/size_text_card"
+                                android:text="@string/requiredSlillCard"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="22dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textSize="@dimen/size_text_card"
+                                        android:id="@+id/nameUr"
+                                        android:textColor="@color/black"
+                                        android:text="mohammed albdrie"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                    </TextView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textSize="@dimen/size_text_card"
+                                        android:id="@+id/locationUr"
+                                        android:textColor="@color/black"
+                                        android:text="Khartoum"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                    </TextView>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:alpha="1"
+                                            android:id="@+id/sub1"
+                                            android:textSize="@dimen/size_text_card"
+                                            android:text="null"
+                                            android:textColor="@color/black"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+
+                                        </TextView>
+                                        <TextView
+                                            android:alpha="1"
+                                            android:id="@+id/sub2"
+                                            android:textSize="@dimen/size_text_card"
+                                            android:text="null"
+                                            android:layout_marginRight="10dp"
+                                            android:textColor="@color/black"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+
+                                        </TextView>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_marginTop="2dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:alpha="1"
+                                            android:id="@+id/sub3"
+                                            android:textSize="@dimen/size_text_card"
+                                            android:text="null"
+                                            android:textColor="@color/black"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+
+                                        </TextView>
+                                        <TextView
+                                            android:alpha="1"
+                                            android:id="@+id/sub4"
+                                            android:textSize="@dimen/size_text_card"
+                                            android:text="null"
+                                            android:layout_marginRight="10dp"
+                                            android:textColor="@color/black"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+
+                                        </TextView>
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textSize="@dimen/size_text_card"
+                                        android:text="null"
+                                        android:id="@+id/riqSub"
+                                        android:layout_marginLeft="10dp"
+                                        android:textColor="@color/black"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                    </TextView>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="vertical"
+                        android:layout_weight="0.55">
+
+                        <Button
+                            android:text="@string/sendO"
+                            android:src="@color/orange"
+                            android:layout_gravity="left"
+                            android:id="@+id/sendOrder"
+                            android:textSize="@dimen/size_text_card"
+                            android:background="@drawable/send"
+                            android:layout_width="@dimen/width_btn_sendO"
+                            android:layout_height="match_parent"
+                            >
+
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>

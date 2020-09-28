@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_icon_app">140dp</dimen>
+    <dimen name="height_icon_app">130dp</dimen>
+    <dimen name="login_size">40sp</dimen>
+    <dimen name="height_login_edit">65dp</dimen>
+    <dimen name="height_login_btn">70dp</dimen>
+    <dimen name="size_login_btn">30sp</dimen>
+    <dimen name="hint_size">18sp</dimen>
+    <dimen name="forget_size">17sp</dimen>
+    <dimen name="make_account_text_size">19sp</dimen>
+    //login Screen///----------------------------------------------//
+
+
+    <dimen name="welcome_text_size">24sp</dimen>
+    //welcome Screen///----------------------------------------------//
+
+
+    <dimen name="locatoin_arrow_back">15dp</dimen>
+    <dimen name="text_center">100dp</dimen>
+    <dimen name="sorry_text_size">24sp</dimen>
+    //sorry Screen///----------------------------------------------//
+
+
+    <dimen name="editTextwidth">285dp</dimen>
+    <dimen name="editTextHeight">55dp</dimen>
+    <dimen name="textOptioninsSize">23sp</dimen>
+    <dimen name="textOptioninsSize2">18sp</dimen>
+    <dimen name="margen_between_item">10dp</dimen>
+    <dimen name="male_margen">120dp</dimen>
+    <dimen name="btn_searchWidth">265dp</dimen>
+    <dimen name="btn_searchHeight">60dp</dimen>
+    <dimen name="btn_text_size">24sp</dimen>
+    <dimen name="margen_top_btn">10dp</dimen>
+    <dimen name="hintSizeSup">19sp</dimen>
+    <dimen name="padding_search_icon">10dp</dimen>
+    <dimen name="padding_text_hint">5dp</dimen>
+    //search screen-----------------------------------------------------------------//
+    <dimen name="locatoin_head_new">20dp</dimen>
+    <dimen name="locatoin_arrow_back_new_account">8dp</dimen>
+    <dimen name="title_new_account_size">24sp</dimen>
+    <dimen name="locatoin_title_new_accont">29dp</dimen>
+    <dimen name="top_from_title_head">25dp</dimen>
+    <dimen name="magren_edir_text">45dp</dimen>
+    <dimen name="Height_edit_text">65dp</dimen>
+    <dimen name="margen_top_between_edit_text">20dp</dimen>
+    <dimen name="hint_size_new">18sp</dimen>
+    <dimen name="wdith_btn">40dp</dimen>
+    <dimen name="new_account_btn_size">20dp</dimen>
+    <dimen name="male_margen2">100dp</dimen>
+    //new account screen-----------------------------------------------------------------//
+    <dimen name="title_edit_account_size">27sp</dimen>
+    <dimen name="edit_photo_text_size">20sp</dimen>
+    <dimen name="wdith_edit_edit">40dp</dimen>
+    <dimen name="text_size_btn_edit">30sp</dimen>
+    <dimen name="wdith_btn_edit">55dp</dimen>
+    <dimen name="height_btn_edit">60dp</dimen>
+    <dimen name="text_size_edit_edit">19sp</dimen>
+    //edit account screen-----------------------------------------------------------------///
+    <dimen name="title_contact_us_size_screen">35sp</dimen>
+    <dimen name="wdith_all">45dp</dimen>
+    <dimen name="text_size_contact">19sp</dimen>
+    //edit contact us screen-----------------------------------------------------------------///
+    <dimen name="toolBarTextSize">30sp</dimen>
+    //user main screen-----------------------------------------------------------------///
+    <dimen name="text_size_add_sup">19sp</dimen>
+    <dimen name="edit_add_sup">50dp</dimen>
+    <dimen name="text_size_enter_sub">20sp</dimen>
+    <dimen name="wdith_btn_add_sup">97dp</dimen>
+    <dimen name="height_btn_add_sup">48dp</dimen>
+    <dimen name="text_size_enter_sub_btn">20sp</dimen>
+    //Add sup ///////////////////
+    <dimen name="size_text_card">17sp</dimen>
+    <dimen name="width_btn_sendO">120dp</dimen>
+    //card//////////////////
+</resources>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ashrahLei</string>
+    <string name="login">login</string>
+    <string name="wrong">user name or password is wrong</string>
+    <string name="wiatPlease"> please wait</string>
+    <string name="no_account">not hava an account</string>
+    <string name="then_make_one">create an account</string>
+    <string name="user_Name_Login">user name or emile</string>
+    <string name="password_for_login">password</string>
+    <string name="forgertYourPass">Forget your password?</string>
+    //login screen/--------------------------------------------/
+    <string name="Welcome">welcome in ahrah lei app</string>
+    //welcome screen/--------------------------------------------/
+    <string name="sorry">sorry, an available user was not found, you will be notified as soon as it is available</string>
+    //sorry screen/--------------------------------------------/
+    <string name="Gernder">Gender</string>
+    <string name="male">Male</string>
+    <string name="Famale">Famale</string>
+    <string name="none">Not importent</string>
+    <string name="place">Place</string>
+    <string name="bahry">Bahry</string>
+    <string name="khartoum">Khartoum</string>
+    <string name="omdurman">Omdurman</string>
+    <string name="search">Search</string>
+    <string name="enterNameSup">enter a name of supject</string>
+    //Search screen----------------------------------------------------/
+    <string name="title_newAcount">create a new account</string>
+    <string name="realName">real name</string>
+    <string name="userName">user name</string>
+    <string name="password">password</string>
+    <string name="confirmationPassword">confirmation password</string>
+    <string name="email">email</string>
+    <string name="phoneNumpper">phone numpper</string>
+    <string name="supjects">supjects</string>
+    <string name="addSup">add Sup</string>
+    <string name="add">add</string>
+    <string name="cancle">cancle</string>
+    <string name="have_account">you hava an account</string>
+    <string name="then_go_to_log_in">Log in</string>
+    //new account screen----------------------------------------------------/
+    <string name="edit_account">edit account</string>
+    <string name="change_photo">edit photo</string>
+    <string name="edit_account2">edit</string>
+    //edit account screen-----------------------------------------------------------------///
+    <string name="contact_us">Conatct us</string>
+    <string name="send">Send</string>
+    <string name="writeUrMassage">Write your massage here</string>
+    <string name="yourName">name</string>
+    <string name="yourEmail">email</string>
+    //edit screen-----------------------------------------------------------------///
+    <string name="notifications">Notifications</string>
+    <string name="log_out">Log out</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    //user main screen-----------------------------------------------------------------///
+    <string name="wrog_pass">password is wrong</string>
+    <string name="done">done</string>
+    <string name="fill">Fill out your information</string>
+    //wrog and done dilog//////////////////
+    <string name="nameCard">Name :</string>
+    <string name="locationCard">Location :</string>
+    <string name="skillsCard">Skills :</string>
+    <string name="requiredSlillCard">required slill :</string>
+    <string name="sendO">Send order</string>
+    //card  view//////////////////
+</resources>

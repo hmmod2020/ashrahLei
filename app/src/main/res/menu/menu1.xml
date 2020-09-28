@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/edit_accoont"
+            android:title="@string/edit_account"
+            android:icon="@drawable/settings">
+        </item>
+        <item android:id="@+id/notifaction"
+            android:title="@string/notifications"
+            android:icon="@drawable/notifications">
+        </item>
+        <item android:id="@+id/contactUs"
+            android:title="@string/contact_us"
+            android:icon="@drawable/contact_us2">
+        </item>
+        <item android:id="@+id/log_out"
+            android:title="@string/log_out"
+            android:icon="@drawable/settings">
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".contact_us">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.6">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/title_contact_us_size_screen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us">
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:layout_weight="3.5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/wdith_all"
+                android:layout_marginLeft="@dimen/wdith_all"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55">
+               <EditText
+                   android:hint="@string/yourName"
+                   android:inputType="textPersonName"
+                   android:textSize="@dimen/text_size_contact"
+                   android:drawableLeft="@drawable/person"
+                   android:padding="10dp"
+                   android:drawablePadding="7dp"
+                   android:id="@+id/nameC"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/edit_text_new_account">
+
+               </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/wdith_all"
+                android:layout_marginLeft="@dimen/wdith_all"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55">
+                <EditText
+                    android:hint="@string/yourEmail"
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/email"
+                    android:padding="10dp"
+                    android:gravity="center|left"
+                    android:textSize="@dimen/text_size_contact"
+                    android:drawablePadding="7dp"
+                    android:id="@+id/emailC"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text_new_account">
+
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/wdith_all"
+                android:layout_marginLeft="@dimen/wdith_all"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.8"
+                android:orientation="horizontal">
+                <EditText
+
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:id="@+id/massage"
+                    android:textSize="@dimen/text_size_contact"
+                    android:hint="@string/writeUrMassage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text_new_account">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" android:textSize=&quot;@dimen/text_size_contact&quot;" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0.46">
+            <Button
+                android:id="@+id/send_massage"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_btn_edit"
+                android:text="@string/send"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:background="@drawable/btn_style"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

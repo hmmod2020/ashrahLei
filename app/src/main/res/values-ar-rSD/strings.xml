@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أشرح لي</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="wrong">اسم المستخد او كلمة المرور خاطئة</string>
+    <string name="wiatPlease">الرجاء الإنتظار</string>
+    <string name="no_account">ليس لديك حساب</string>
+    <string name="then_make_one">قم بإنشاء حساب</string>
+    <string name="user_Name_Login">إسم المستخدم او كلمة المرور</string>
+    <string name="password_for_login">كلمة المرور</string>
+    <string name="forgertYourPass">هل نسيت كلمة السر؟</string>
+    //login screen/--------------------------------------------/
+    <string name="Welcome">مرحبا بك في تطبيق اشرح لي </string>
+    //welcome screen/--------------------------------------------/
+    <string name="sorry">عذرا, لم يتم العثور على مستخدم متوفر حاليا, سيتم إشعارك حال توفره</string>
+    //sorry screen/--------------------------------------------/
+    <string name="Gernder">الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="Famale">أنثى</string>
+    <string name="none">غير مهم</string>
+    <string name="place">منطقة السكن</string>
+    <string name="bahry">بحري</string>
+    <string name="khartoum">الخرطوم</string>
+    <string name="omdurman">ام درمان</string>
+    <string name="search">بحث</string>
+    <string name="enterNameSup">أدخل اسم المادة</string>
+    //Search screen----------------------------------------------------/
+    <string name="title_newAcount">إنشاء حساب جديد</string>
+    <string name="realName">الإسم الحقيقي</string>
+    <string name="userName">إسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirmationPassword">تأكيد كلمة المرور</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="addSup">إضافة مادة</string>
+    <string name="add">إضافة</string>
+    <string name="cancle">إلغاء</string>
+    <string name="phoneNumpper">رقم الهاتف</string>
+    <string name="supjects">المواد</string>
+    <string name="have_account">لديك حساب مسبق</string>
+    <string name="then_go_to_log_in">قم بتسجيل الدخول</string>
+    //new account screen----------------------------------------------------/
+    <string name="edit_account">تعديل الحساب</string>
+    <string name="change_photo">تعديل الصورة</string>
+    <string name="edit_account2">تعديل</string>
+    //edit account screen-----------------------------------------------------------------///
+    <string name="contact_us">تواصل معنا</string>
+    <string name="send">إرسال</string>
+    <string name="writeUrMassage">أكتب رسالتك هنا</string>
+    <string name="yourName">الإسم</string>
+    <string name="yourEmail">البريد الإلكتروني</string>
+    //edit screen-----------------------------------------------------------------///
+    <string name="notifications">الإشعارات</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    //user main screen-----------------------------------------------------------------///
+    <string name="wrog_pass">كلمة المرور خاطئة</string>
+    <string name="done">تم تسجيل حسابك</string>
+    <string name="fill">يرجى إكمال تسجيل بياناتك</string>
+    //wrog and done dilog//////////////////
+    <string name="nameCard">الإٍسم :</string>
+    <string name="locationCard">الموقع :</string>
+    <string name="skillsCard">المهارات :</string>
+    <string name="requiredSlillCard">المادة المطلوبة :</string>
+    <string name="sendO">إرسال طلب</string>
+    //card  view//////////////////
+</resources>
